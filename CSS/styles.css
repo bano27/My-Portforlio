@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  color: white;
+  border: dashed 15px red;
+  padding: 20px;
+  margin: auto;
+}
+.author h3{
+  font-size: 30px;
+  font-family: cursive;
+}
+@media screen and (min-width: 400px) {
+  .author img{
+    float: right;
+  }
+}
